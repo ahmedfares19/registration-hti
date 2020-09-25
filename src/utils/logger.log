@@ -1,0 +1,78 @@
+
+{
+	  level ✏️  INFO
+	  message ✏️  "connected to mongodb://127.0.0.1:27017/HTISYS"
+	   ✔️  "ea586663-d045-44b9-91a7-fe07940d29ba"
+	   ✔️  2020/9/23 16:4:26
+
+}
+{
+	  level ⛔  ERROR
+	  message ⛔  "please enter correct data"
+	   ✔️  "47dcf21e-f24f-4694-abc2-9cde8a09f1a7"
+	   ✔️  2020/9/24 21:0:15
+
+}
+{
+	  level ⛔  ERROR
+	  message ⛔  {}
+	   ✔️  "b764382a-8903-459a-a2df-bfd968047ff5"
+	   ✔️  2020/9/24 21:8:51
+
+}
+{
+	  level ⛔  ERROR
+	  message ⛔  {}
+	   ✔️  "7669f79a-2666-41e2-8a47-5913afe47852"
+	   ✔️  2020/9/24 21:9:18
+
+}
+{
+	  level ⛔  ERROR
+	  message ⛔  {}
+	   ✔️  "eb2c806f-75ef-4673-af50-f0f0e65509c3"
+	   ✔️  2020/9/24 21:10:8
+
+}
+{
+	  level ⛔  ERROR
+	  message ⛔  {}
+	   ✔️  "1cd908fe-40d9-4d3b-abec-b1d3fc7fb1e9"
+	   ✔️  2020/9/24 21:10:30
+
+}
+{
+	  level ⛔  ERROR
+	  message ⛔  {}
+	   ✔️  "d73e8470-9102-446a-92aa-31b08444a7dd"
+	   ✔️  2020/9/24 21:10:47
+
+}
+{
+	  level ⛔  ERROR
+	  message ⛔  {}
+	   ✔️  "64ab8cc5-d248-4bab-8dc6-fcc39a474030"
+	   ✔️  2020/9/24 21:11:34
+
+}
+{
+	  level ⛔  ERROR
+	  message ⛔  {}
+	   ✔️  "b00714c7-d58e-4a50-8550-5e6875022c41"
+	   ✔️  2020/9/24 21:12:5
+
+}
+{
+	  level ⛔  ERROR
+	  message ⛔  {}
+	   ✔️  "f76b6167-1c4f-49d0-88d7-c2571e02e7bc"
+	   ✔️  2020/9/24 21:12:33
+
+}
+{
+	  level ⛔  ERROR
+	  message ⛔  {}
+	   ✔️  "1208612b-77c7-4e28-9a77-74c9422d104a"
+	   ✔️  2020/9/24 21:14:24
+
+}

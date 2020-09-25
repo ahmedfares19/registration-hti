@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+    
+    <div class="nav">
+        <a class="item" href="/">Home</a>
+        <a class="item" href="/apis">APIs</a>
+    </div>
+    <div class="wrapper">
+        <h1 class="title">Api URLs</h1>
+
+        <% apis.forEach((api)=>{%>
+        <h1 class="api-cat"><%= api.title %></h1>  
+            <% api.apis.forEach((api)=>{%>
+                <div class="api">
+                <span><%= api %></span>
+                </div>
+            <%})%>
+        <%})%>
+    </div>
+</body>
+</html>

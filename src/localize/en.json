@@ -1,0 +1,11 @@
+{
+  "RequestError":"somthing went worng :(",
+  "WrongData":"please enter correct data",
+  "studentCreate":"student has been created",
+  "couldntCreateStudent":"couldn't create student",
+  "StudentNotFound":"Student Not Found",
+  "EmailAlreadyExist":"Email already exists",
+  "successfull":"Successfull process",
+  "Unauthorized":"you are not unauthorized",
+  "SudentNotFound":"Student not found"
+}

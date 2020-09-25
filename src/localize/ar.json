@@ -1,0 +1,11 @@
+{
+  "RequestError":"لقد حدث خطاء",
+ "WrongData":"من فضلك ادخل بيانات صحيحة",
+ "studentCreate":"تمت إضافة الطالب",
+ "couldntCreateStudent":"لم تتم اضافة الطالب",
+ "EmailAlreadyExist":"الايميل مسجل من قبل",
+ "successfull":"عملية ناجحة",
+ "SudentNotFound":"لم يتم العثور على الطالب",
+ "Unauthorized":"انت غير مسجل ",
+ "StudentNotFound":"لم يتم العثور على الطالب"
+}
