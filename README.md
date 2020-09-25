@@ -2,7 +2,7 @@
 registration system 
 
 npm i 
-npm run  start-dev
+npm run  start-dev  
 
 
 don't foreget the env file
