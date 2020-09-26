@@ -1,30 +1,39 @@
 import { StudentDao } from "../dao/student.dao";
 import { Logy } from "../utils/logy";
-import { CreateStudentReq, createStudent } from '../interfaces/student/createStudent';
+import {
+  CreateStudentReq,
+  createStudent,
+} from "../interfaces/student/createStudent";
 import Student, { IStudent } from "../models/student.model";
 import { JWT } from "../utils/jwt";
 import { BaseResponse } from "../interfaces/general/base.response";
-import { resStatus, lang } from '../utils/enums';
-import { Localize } from '../utils/localize';
-import { ProfDao } from '../dao/prof.dao';
-import { IProf } from '../models/prof.model';
-import Prof from '../models/prof.model';
-import { CreateProfReq } from '../interfaces/prof/create.prof';
-import { LoginProfReq } from '../interfaces/prof/login';
-import { GetStudentReq } from '../interfaces/student/getStudents';
-import { MAP } from '../mapper/map';
-import { CreateCourseReq, createCourse } from '../interfaces/course/create-course';
-import { ICourse } from '../models/course.model';
-import Course from '../models/course.model';
-import { CourseDao } from '../dao/course.dao';
-import { DropCourseReq } from '../interfaces/course/drop-course';
-import { GetCourseReq } from '../interfaces/course/get-courses';
+import { resStatus, lang, profTypes } from "../utils/enums";
+import { Localize } from "../utils/localize";
+import { ProfDao } from "../dao/prof.dao";
+import { IProf } from "../models/prof.model";
+import Prof from "../models/prof.model";
+import { CreateProfReq } from "../interfaces/prof/create.prof";
+import { LoginProfReq } from "../interfaces/prof/login";
+import { GetStudentReq } from "../interfaces/student/getStudents";
+import { MAP } from "../mapper/map";
+import {
+  CreateCourseReq,
+  createCourse,
+} from "../interfaces/course/create-course";
+import { ICourse } from "../models/course.model";
+import Course from "../models/course.model";
+import { CourseDao } from "../dao/course.dao";
+import { DropCourseReq } from "../interfaces/course/drop-course";
+import { GetCourseReq } from "../interfaces/course/get-courses";
+import { GivePermissionReq } from "../interfaces/prof/give-permision";
+import { PutGpaProfReq } from "../interfaces/prof/put-gpa";
+import { GetProfStudentReq } from '../interfaces/prof/get-student';
+import { MapTeacherStudents } from '../mapper/teacher.mapper';
 export class ProfController {
-  constructor(private profDao: ProfDao,private courseDao:CourseDao) {
+  constructor(private profDao: ProfDao, private courseDao: CourseDao) {
     this.profDao = profDao;
     this.courseDao = courseDao;
   }
-
 
   createNewProf = async (createProfReq: CreateProfReq) => {
     try {
@@ -33,7 +42,8 @@ export class ProfController {
         username: createProfReq.username,
         password: createProfReq.password,
         email: createProfReq.email,
-        accessToken: ""
+        type: createProfReq.type,
+        accessToken: "",
       });
       const result = await this.profDao.createNewProf(newProf);
       if (!result._id) {
@@ -41,14 +51,14 @@ export class ProfController {
           resStatus.UnprocessableEntity,
           result.message,
           result,
-          ''
+          ""
         );
         return res;
       } else {
         const res = new BaseResponse(
           resStatus.Successful,
-          Localize.localize(createProfReq.language,'studentCreate'),
-          '',
+          Localize.localize(createProfReq.language, "profCreate"),
+          "",
           result
         );
         return res;
@@ -57,9 +67,9 @@ export class ProfController {
       Logy.log("error", error);
       const res = new BaseResponse(
         resStatus.UnprocessableEntity,
-        Localize.localize(createProfReq.language,'RequestError'),
+        Localize.localize(createProfReq.language, "RequestError"),
         error,
-        ''
+        ""
       );
       return res;
     }
@@ -78,8 +88,8 @@ export class ProfController {
       } else {
         const res = new BaseResponse(
           resStatus.NotFound,
-          Localize.localize(loginReq.language,result.error),
-          '',
+          Localize.localize(loginReq.language, 'Unauthorized'),
+          "",
           ""
         );
         return res;
@@ -95,11 +105,11 @@ export class ProfController {
       return res;
     }
   };
-  getProfs =async (getProfRequest:GetStudentReq) => {
+  getProfs = async (getProfRequest: GetStudentReq) => {
     try {
-      Logy.log('debug','from Dao')
+      Logy.log("debug", "from Dao");
       const result = await this.profDao.getAllStudents(getProfRequest);
-      Logy.log('debug','result')
+      Logy.log("debug", "result");
       const res = new BaseResponse(
         resStatus.Successful,
         Localize.localize(getProfRequest.language, "successfull"),
@@ -111,9 +121,9 @@ export class ProfController {
       Logy.log("error", error);
       const res = new BaseResponse(
         resStatus.UnprocessableEntity,
-        Localize.localize(getProfRequest.language,'RequestError'),
+        Localize.localize(getProfRequest.language, "RequestError"),
         error,
-        ''
+        ""
       );
       return res;
     }
@@ -124,7 +134,7 @@ export class ProfController {
         name: createCourseReq.name,
         code: createCourseReq.code,
         fullMark: createCourseReq.fullmark,
-        accessToken: ""
+        accessToken: "",
       });
       const result = await this.courseDao.createNewCourse(newCourse);
       if (!result._id) {
@@ -132,14 +142,14 @@ export class ProfController {
           resStatus.UnprocessableEntity,
           result.message,
           result,
-          ''
+          ""
         );
         return res;
       } else {
         const res = new BaseResponse(
           resStatus.Successful,
-          Localize.localize(createCourseReq.language,'studentCreate'),
-          '',
+          Localize.localize(createCourseReq.language, "courseCreate"),
+          "",
           result
         );
         return res;
@@ -148,22 +158,22 @@ export class ProfController {
       Logy.log("error", error);
       const res = new BaseResponse(
         resStatus.UnprocessableEntity,
-        Localize.localize(createCourseReq.language,'RequestError'),
+        Localize.localize(createCourseReq.language, "RequestError"),
         error,
-        ''
+        ""
       );
       return res;
     }
   };
 
-  dropCourse = async (dropCourseReq:DropCourseReq) => {
+  dropCourse = async (dropCourseReq: DropCourseReq) => {
     try {
       const courseCode = dropCourseReq.code;
-      const result = await this.courseDao.dropCourse(courseCode)
+      const result = await this.courseDao.dropCourse(courseCode);
       const res = new BaseResponse(
         resStatus.Successful,
-        Localize.localize(dropCourseReq.language,'studentCreate'),
-        '',
+        Localize.localize(dropCourseReq.language, "courseDrop"),
+        "",
         result
       );
       return res;
@@ -171,31 +181,82 @@ export class ProfController {
       Logy.log("error", error);
       const res = new BaseResponse(
         resStatus.UnprocessableEntity,
-        Localize.localize(dropCourseReq.language,'RequestError'),
+        Localize.localize(dropCourseReq.language, "RequestError"),
         error,
-        ''
+        ""
       );
       return res;
     }
-  }
+  };
   getCourse = async (getCourseReq: GetCourseReq) => {
     try {
       const result = await this.courseDao.getAllCourses(getCourseReq);
-        const res = new BaseResponse(
-          resStatus.Successful,
-          Localize.localize(getCourseReq.language,'studentCreate'),
-          '',
-          result
-        );
-        return res;
-      
+      const res = new BaseResponse(
+        resStatus.Successful,
+        Localize.localize(getCourseReq.language, "successfull"),
+        "",
+        result
+      );
+      return res;
     } catch (error) {
       Logy.log("error", error);
       const res = new BaseResponse(
         resStatus.UnprocessableEntity,
-        Localize.localize(getCourseReq.language,'RequestError'),
+        Localize.localize(getCourseReq.language, "RequestError"),
         error,
-        ''
+        ""
+      );
+      return res;
+    }
+  };
+  givePermission = async (givePermissionReq: GivePermissionReq) => {
+    try {
+      const result = await this.profDao.givePermission(givePermissionReq);
+      const res = new BaseResponse(
+        resStatus.Successful,
+        Localize.localize(givePermissionReq.language, "studentCreate"),
+        "",
+        result
+      );
+      return res;
+    } catch (error) {
+      Logy.log("error", error);
+      const res = new BaseResponse(
+        resStatus.UnprocessableEntity,
+        Localize.localize(givePermissionReq.language, "RequestError"),
+        error,
+        ""
+      );
+      return res;
+    }
+  };
+  putGpa = async (putGpaProfReq: PutGpaProfReq) => {
+    try {
+      const result = await this.profDao.putGpa(putGpaProfReq);
+      if (result["error"]) {
+        const res = new BaseResponse(
+          resStatus.UnprocessableEntity,
+          Localize.localize(putGpaProfReq.language, "successfull"),
+          result["error"],
+          ""
+        );
+        return res;
+      } else {
+        const res = new BaseResponse(
+          resStatus.UnprocessableEntity,
+          Localize.localize(putGpaProfReq.language, "studentCreate"),
+          "",
+          result
+        );
+        return res;
+      }
+    } catch (error) {
+      Logy.log("error", error);
+      const res = new BaseResponse(
+        resStatus.UnprocessableEntity,
+        Localize.localize(putGpaProfReq.language, "RequestError"),
+        error,
+        ""
       );
       return res;
     }

@@ -8,7 +8,6 @@ export interface IStudent extends Document {
   password: String;
   accessToken: String;
   email: String;
-  courses?: ICourse[];
 }
 export const StudentSchema: Schema = new Schema<IStudent>(
   {
@@ -22,7 +21,6 @@ export const StudentSchema: Schema = new Schema<IStudent>(
     username: { type: String, required: true, trim: true, unique: true },
     password: { type: String, required: true },
     accessToken: { type: String },
-    courses: [{ type: Schema.Types.ObjectId, ref: "Course" }]
   },
   {
     collection: "student",

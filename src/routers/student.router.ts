@@ -26,7 +26,6 @@ export class StudentRouter {
     this.router.post("/logout", JWT.StudentAuth, this.logout);
     this.router.post("/add-course",JWT.StudentAuth, this.addCourse);
     this.router.post("/drop-course", JWT.StudentAuth, this.dropCourse);
-        //TODO: not done yet
     this.router.post("/get-course",  JWT.StudentAuth,this.getCourse);
   }
 
@@ -211,26 +210,13 @@ export class StudentRouter {
   getCourse = async (request:Request,response:Response) => {
     try {
       const getStudentCourseReq = new GetStudentCourseReq(request);
+      // from middleware
       const student: IStudent = request['student'];
-      if (getStudentCourseReq.check()) {
         const result = await this.studentContoller.getStudentCourse(
           student,
           getStudentCourseReq
         ); 
         response.status(result.statusCode).send(result)
-      } else {
-        Logy.log(
-          "error",
-          Localize.localize(request.body.lang || lang.Arabic, "WrongData")
-        );
-        const newResponse = new BaseResponse(
-          resStatus.WrongInput,
-          "",
-          Localize.localize(request.body.lang || lang.Arabic, "WrongData"),
-          ""
-        );
-        response.status(resStatus.WrongInput).send(newResponse);
-      }
     } catch (error) {
       const newResponse = new BaseResponse(
         resStatus.UnprocessableEntity,

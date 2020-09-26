@@ -1,6 +1,6 @@
 export enum lang {
-  Arabic = 'Ar',
-  English = 'En'
+  Arabic = "Ar",
+  English = "En",
 }
 
 export enum resStatus {
@@ -11,10 +11,11 @@ export enum resStatus {
   InternalServerError = 500,
   WrongInput = 400,
   UnprocessableEntity = 422,
-  Forbidden = 403
+  Forbidden = 403,
 }
 
 export enum profTypes {
-  manger = 'Manager',
-  usual = 'Ususal'
+  admin = 2,
+  manger = 1,
+  usual = 0,
 }

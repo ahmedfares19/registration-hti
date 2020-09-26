@@ -19,6 +19,7 @@ export const ProfSchema: Schema = new Schema<IProf>(
     username: { type: String,required: true, trim: true ,unique: true,},
     password: { type: String ,required: true,},
     accessToken: { type: String },
+    type: { type: profTypes },
     courses:[{ type: Schema.Types.ObjectId, ref: "Course" }]
   },
   {

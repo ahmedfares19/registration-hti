@@ -49,19 +49,19 @@ export class JWT {
   }
   public static ProfAuth = async (request:Request, response:Response, next) => {
     try {
-    
-      
+      console.log('t');
       const token = request.header('Authorization')?.replace('Bearer ', '')
         const decode = jwt.verify(token, Env.JWTSECRECT);
         const prof = await Prof.findOne({
             _id: decode.id,
             'accessToken': token
         })
+      console.log({token,decode});
         if (!prof) {
             throw new Error(Localize.localize(request.body.lang || lang.Arabic,'StudentNotFound'))
       }
         //to save the student so we can access to it in the router
-        request['prof'] = prof;
+      request['prof'] = prof;
       request['token'] = token;
         next()
     } catch (err) {

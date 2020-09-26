@@ -76,3 +76,892 @@
 	   ✔️  2020/9/24 21:14:24
 
 }
+{
+	  level ✏️  INFO
+	  message ✏️  "login student called"
+	   ✔️  "2d884ffb-1b67-4a5a-bfa8-c4a725049b58"
+	   ✔️  2020/9/26 12:58:35
+
+}
+{
+	  level ✏️  INFO
+	  message ✏️  "login student called"
+	   ✔️  "5fe01192-5043-44f5-a4f4-19e01ffbaf96"
+	   ✔️  2020/9/26 12:59:53
+
+}
+{
+	  level ✏️  INFO
+	  message ✏️  "login student called"
+	   ✔️  "1de64db1-8006-4641-9380-b4ac26a46eaf"
+	   ✔️  2020/9/26 13:0:47
+
+}
+{
+	  level ✏️  INFO
+	  message ✏️  "login student called"
+	   ✔️  "a9fac935-e4df-4c30-bf76-87f46dfb0e83"
+	   ✔️  2020/9/26 13:1:14
+
+}
+{
+	  level ✏️  INFO
+	  message ✏️  "login student called"
+	   ✔️  "ed74a9c7-7b2d-40ce-abeb-fa8c60a70341"
+	   ✔️  2020/9/26 13:1:44
+
+}
+{
+	  level ✏️  INFO
+	  message ✏️  "login student called"
+	   ✔️  "9a1ba606-60fd-439a-9c4d-3a093125462c"
+	   ✔️  2020/9/26 13:3:47
+
+}
+{
+	  level ⛔  ERROR
+	  message ⛔  "من فضلك ادخل بيانات صحيحة"
+	   ✔️  "0f47b020-750e-420e-94f1-54a71c65e14f"
+	   ✔️  2020/9/26 13:4:45
+
+}
+{
+	  level ✏️  INFO
+	  message ✏️  "login student called"
+	   ✔️  "cbb9a8d3-eadd-42ce-9079-7754b0ed4f61"
+	   ✔️  2020/9/26 13:7:42
+
+}
+{
+	  level ⛔  ERROR
+	  message ⛔  "من فضلك ادخل بيانات صحيحة"
+	   ✔️  "f846181d-73d1-487f-8ba4-c39d1419ffdd"
+	   ✔️  2020/9/26 13:7:44
+
+}
+{
+	  level ⛔  ERROR
+	  message ⛔  "من فضلك ادخل بيانات صحيحة"
+	   ✔️  "22202fde-3e68-4c83-85d5-fbba83b844de"
+	   ✔️  2020/9/26 13:8:6
+
+}
+{
+	  level ✏️  INFO
+	  message ✏️  "login student called"
+	   ✔️  "2c4bdb28-3985-43f5-81c6-4c303576e886"
+	   ✔️  2020/9/26 14:16:26
+
+}
+{
+	  level ✏️  INFO
+	  message ✏️  "logout called"
+	   ✔️  "0e195c1b-1f98-434b-8c9c-8fb97665f952"
+	   ✔️  2020/9/26 14:16:46
+
+}
+{
+	  level ✏️  INFO
+	  message ✏️  "login student called"
+	   ✔️  "8c01f080-a843-40a6-b769-557d6c0788f9"
+	   ✔️  2020/9/26 14:16:58
+
+}
+{
+	  level ⛔  ERROR
+	  message ⛔  "please enter correct data"
+	   ✔️  "abf2935c-e849-4de9-bd3a-3d8018a12427"
+	   ✔️  2020/9/26 14:17:9
+
+}
+{
+	  level ⛔  ERROR
+	  message ⛔  "please enter correct data"
+	   ✔️  "d063edaa-1d66-499b-8716-b50467193a0b"
+	   ✔️  2020/9/26 14:17:50
+
+}
+{
+	  level ⛔  ERROR
+	  message ⛔  "please enter correct data"
+	   ✔️  "348e568d-0610-46fc-a071-67bdb7a658cb"
+	   ✔️  2020/9/26 14:18:16
+
+}
+{
+	  level ⛔  ERROR
+	  message ⛔  "please enter correct data"
+	   ✔️  "d1d62251-b4fb-4f75-887e-b1b213363c0b"
+	   ✔️  2020/9/26 14:19:35
+
+}
+{
+	  level ⛔  ERROR
+	  message ⛔  "please enter correct data"
+	   ✔️  "d9a412a1-b1b6-4e08-b6fc-49a6991698b2"
+	   ✔️  2020/9/26 14:20:16
+
+}
+{
+	  level ⛔  ERROR
+	  message ⛔  "please enter correct data"
+	   ✔️  "2feae35c-07db-40cb-929b-d109399e6a78"
+	   ✔️  2020/9/26 14:21:44
+
+}
+{
+	  level ⛔  ERROR
+	  message ⛔  "please enter correct data"
+	   ✔️  "a7ed8f9b-eea9-4000-8bce-3af417564b35"
+	   ✔️  2020/9/26 14:22:13
+
+}
+{
+	  level ⛔  ERROR
+	  message ⛔  "please enter correct data"
+	   ✔️  "43fcd5cc-18b5-4bce-aee1-4bb3921565be"
+	   ✔️  2020/9/26 14:22:40
+
+}
+{
+	  level ⛔  ERROR
+	  message ⛔  "please enter correct data"
+	   ✔️  "6a575574-e02a-4560-b38d-c6676f24b7b3"
+	   ✔️  2020/9/26 14:22:57
+
+}
+{
+	  level ⛔  ERROR
+	  message ⛔  "please enter correct data"
+	   ✔️  "e4f50833-209e-426f-b274-69c9614a4080"
+	   ✔️  2020/9/26 14:23:10
+
+}
+{
+	  level ⛔  ERROR
+	  message ⛔  "please enter correct data"
+	   ✔️  "9e49f397-f060-4502-99a3-f805f9ac308a"
+	   ✔️  2020/9/26 14:23:23
+
+}
+{
+	  level ⛔  ERROR
+	  message ⛔  "please enter correct data"
+	   ✔️  "838ae007-ce1f-438b-b1e5-08bb538210a5"
+	   ✔️  2020/9/26 14:23:41
+
+}
+{
+	  level ⛔  ERROR
+	  message ⛔  "please enter correct data"
+	   ✔️  "8b5809d8-1ef1-450d-95a1-f941895daae0"
+	   ✔️  2020/9/26 14:24:9
+
+}
+{
+	  level ⛔  ERROR
+	  message ⛔  "please enter correct data"
+	   ✔️  "dc3de206-f4ae-4552-969d-a81f08d84f57"
+	   ✔️  2020/9/26 14:24:31
+
+}
+{
+	  level ⛔  ERROR
+	  message ⛔  "please enter correct data"
+	   ✔️  "6a61fab4-da6d-4386-8ea7-e4d8ccbe2ce1"
+	   ✔️  2020/9/26 14:25:42
+
+}
+{
+	  level ⛔  ERROR
+	  message ⛔  "please enter correct data"
+	   ✔️  "0e75d462-d453-41e9-a755-c84d3a1be21c"
+	   ✔️  2020/9/26 14:26:4
+
+}
+{
+	  level ⛔  ERROR
+	  message ⛔  "please enter correct data"
+	   ✔️  "ac619436-0937-44c8-9f6c-06f9e4d669ad"
+	   ✔️  2020/9/26 14:26:20
+
+}
+{
+	  level ⛔  ERROR
+	  message ⛔  "من فضلك ادخل بيانات صحيحة"
+	   ✔️  "932388b9-734f-4c86-afcb-cf70d77feafd"
+	   ✔️  2020/9/26 14:54:45
+
+}
+{
+	  level ⛔  ERROR
+	  message ⛔  {}
+	   ✔️  "08534171-5d8c-46dd-bc05-c344b42b743d"
+	   ✔️  2020/9/26 16:43:8
+
+}
+{
+	  level ⛔  ERROR
+	  message ⛔  {}
+	   ✔️  "95f749bc-f38f-4f51-85c8-2023fd6e3319"
+	   ✔️  2020/9/26 16:43:8
+
+}
+{
+	  level ⛔  ERROR
+	  message ⛔  {}
+	   ✔️  "49ac20cb-e66d-41a8-b7ad-5628d5134577"
+	   ✔️  2020/9/26 16:43:58
+
+}
+{
+	  level ⛔  ERROR
+	  message ⛔  {}
+	   ✔️  "437e3f99-426c-4854-b585-6334e9120de8"
+	   ✔️  2020/9/26 16:43:58
+
+}
+{
+	  level ⛔  ERROR
+	  message ⛔  {}
+	   ✔️  "ed48c9b4-8e56-41b2-9b56-18810389cbc9"
+	   ✔️  2020/9/26 16:45:20
+
+}
+{
+	  level ⛔  ERROR
+	  message ⛔  {}
+	   ✔️  "3aa28236-fcaf-42ee-82d0-13a21e9b7425"
+	   ✔️  2020/9/26 16:45:20
+
+}
+{
+	  level ⛔  ERROR
+	  message ⛔  {}
+	   ✔️  "016e7317-5224-4401-8e56-510cc9b5c8f5"
+	   ✔️  2020/9/26 16:45:52
+
+}
+{
+	  level ⛔  ERROR
+	  message ⛔  {}
+	   ✔️  "5ed2d86f-efaf-491e-92a1-89931cb3f488"
+	   ✔️  2020/9/26 16:45:52
+
+}
+{
+	  level ⛔  ERROR
+	  message ⛔  {}
+	   ✔️  "f34b4664-cf45-427d-a0e4-842ddcb57fb9"
+	   ✔️  2020/9/26 16:46:27
+
+}
+{
+	  level ⛔  ERROR
+	  message ⛔  {}
+	   ✔️  "a532c5bb-76e5-4900-9560-bfa0d9d70a90"
+	   ✔️  2020/9/26 16:46:27
+
+}
+{
+	  level ⛔  ERROR
+	  message ⛔  {}
+	   ✔️  "85feaf32-fd8f-4ef4-8dfd-9815b3ee5296"
+	   ✔️  2020/9/26 16:46:42
+
+}
+{
+	  level ⛔  ERROR
+	  message ⛔  {}
+	   ✔️  "ba349236-d194-4af8-8dd6-be3b1a2cad0a"
+	   ✔️  2020/9/26 16:46:42
+
+}
+{
+	  level ⛔  ERROR
+	  message ⛔  {}
+	   ✔️  "bfcc3ae0-3135-411b-85f1-85e344fb07c0"
+	   ✔️  2020/9/26 16:47:10
+
+}
+{
+	  level ⛔  ERROR
+	  message ⛔  {}
+	   ✔️  "2f277db4-c4cc-418b-a9de-625117b9b53e"
+	   ✔️  2020/9/26 16:47:10
+
+}
+{
+	  level ⛔  ERROR
+	  message ⛔  {}
+	   ✔️  "ba4eb641-bed3-460c-9316-3b7bd55fd230"
+	   ✔️  2020/9/26 16:47:39
+
+}
+{
+	  level ⛔  ERROR
+	  message ⛔  {}
+	   ✔️  "5576a450-3da5-4e2a-909e-281f6165fb13"
+	   ✔️  2020/9/26 16:47:39
+
+}
+{
+	  level ⛔  ERROR
+	  message ⛔  {}
+	   ✔️  "c04c7930-c986-43da-959a-be7bc7306c82"
+	   ✔️  2020/9/26 16:49:41
+
+}
+{
+	  level ⛔  ERROR
+	  message ⛔  {}
+	   ✔️  "cef655f9-906d-40a5-b1dc-965859e0f707"
+	   ✔️  2020/9/26 16:49:41
+
+}
+{
+	  level ⛔  ERROR
+	  message ⛔  {}
+	   ✔️  "e8494ba8-3921-45b6-b700-8b1000b07a2a"
+	   ✔️  2020/9/26 16:49:59
+
+}
+{
+	  level ⛔  ERROR
+	  message ⛔  {}
+	   ✔️  "67a951b6-5e8a-4790-85c7-c225a8782f09"
+	   ✔️  2020/9/26 16:49:59
+
+}
+{
+	  level ⛔  ERROR
+	  message ⛔  {}
+	   ✔️  "5a4f0d80-7af1-4489-93d6-38a6b9fedc0f"
+	   ✔️  2020/9/26 16:51:46
+
+}
+{
+	  level ⛔  ERROR
+	  message ⛔  {}
+	   ✔️  "fc7cfd1e-53ec-4093-9f1f-3e48627bd31a"
+	   ✔️  2020/9/26 16:51:46
+
+}
+{
+	  level ⛔  ERROR
+	  message ⛔  {}
+	   ✔️  "06614fd4-1ca2-4caf-b598-ab7b4e9340d5"
+	   ✔️  2020/9/26 16:52:27
+
+}
+{
+	  level ⛔  ERROR
+	  message ⛔  {}
+	   ✔️  "e32b3004-30e7-4980-838c-153ec7dc8f3f"
+	   ✔️  2020/9/26 16:52:28
+
+}
+{
+	  level ⛔  ERROR
+	  message ⛔  {}
+	   ✔️  "27ecefa6-e800-4467-94d0-f46869f35ab4"
+	   ✔️  2020/9/26 16:53:3
+
+}
+{
+	  level ⛔  ERROR
+	  message ⛔  {}
+	   ✔️  "3410f8ab-9f68-4ab5-ac9e-89d5b74e7354"
+	   ✔️  2020/9/26 16:53:3
+
+}
+{
+	  level ⛔  ERROR
+	  message ⛔  {}
+	   ✔️  "73dc8c80-2fa9-4034-a452-b8e66f23c946"
+	   ✔️  2020/9/26 16:53:7
+
+}
+{
+	  level ⛔  ERROR
+	  message ⛔  {}
+	   ✔️  "d295fddd-bf5d-4837-8b80-4e26735f2414"
+	   ✔️  2020/9/26 16:53:7
+
+}
+{
+	  level ⛔  ERROR
+	  message ⛔  {}
+	   ✔️  "62b9cf34-1448-46d7-a2ed-2ffbb8e57cc0"
+	   ✔️  2020/9/26 16:53:21
+
+}
+{
+	  level ⛔  ERROR
+	  message ⛔  {}
+	   ✔️  "0493a19f-cec2-473f-be8d-07b7487dcd7c"
+	   ✔️  2020/9/26 16:53:21
+
+}
+{
+	  level ⛔  ERROR
+	  message ⛔  {}
+	   ✔️  "c325d525-1999-49e9-ba8c-a669d06c9c03"
+	   ✔️  2020/9/26 16:54:15
+
+}
+{
+	  level ⛔  ERROR
+	  message ⛔  {}
+	   ✔️  "3c1dfe9e-fe0e-4d1f-ba13-322125d90e46"
+	   ✔️  2020/9/26 16:54:15
+
+}
+{
+	  level ⛔  ERROR
+	  message ⛔  {}
+	   ✔️  "c9f423e6-1d61-4459-9795-e96f402444b8"
+	   ✔️  2020/9/26 16:54:52
+
+}
+{
+	  level ⛔  ERROR
+	  message ⛔  {}
+	   ✔️  "a51b5fa0-ddda-46dd-8544-965a84f01889"
+	   ✔️  2020/9/26 16:54:52
+
+}
+{
+	  level ⛔  ERROR
+	  message ⛔  {}
+	   ✔️  "79e90177-b56a-4772-929e-a2f9525d59aa"
+	   ✔️  2020/9/26 16:55:47
+
+}
+{
+	  level ⛔  ERROR
+	  message ⛔  {}
+	   ✔️  "e36958e6-319b-4c58-b682-f2ee0a2a1b49"
+	   ✔️  2020/9/26 16:55:47
+
+}
+{
+	  level ⛔  ERROR
+	  message ⛔  {}
+	   ✔️  "9d076571-9df7-48a8-b4f3-f31984f7f727"
+	   ✔️  2020/9/26 16:56:2
+
+}
+{
+	  level ⛔  ERROR
+	  message ⛔  {}
+	   ✔️  "8c4b5c51-f663-471c-a5a6-d934a6c4bbea"
+	   ✔️  2020/9/26 16:56:2
+
+}
+{
+	  level ⛔  ERROR
+	  message ⛔  {}
+	   ✔️  "0439807a-2c96-47af-a1a9-5154b6dc9538"
+	   ✔️  2020/9/26 16:56:35
+
+}
+{
+	  level ⛔  ERROR
+	  message ⛔  {}
+	   ✔️  "fed114ff-6d65-4da4-b7e3-577fb9210891"
+	   ✔️  2020/9/26 16:56:35
+
+}
+{
+	  level ✏️  INFO
+	  message ✏️  {"course":"computer science","student":[{"_id":"5f6cf01f7d8e474b2c1958da","studentId":{"_id":"5f689e3dade9214480919665","name":"name","username":"fFRFDFFF","password":"$2a$10$e0zukA6MsrxHR1yFG4HYo.EWD6ASAduhLfW/lhWjwK3KAv631DaFa","email":"ahmf3ed@gmail.com","accessToken":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjVmNjg5ZTNkYWRlOTIxNDQ4MDkxOTY2NSIsImlhdCI6MTYwMTExODQ2Mn0.FTBQsIiKLKwfqRfRJZu3WEP_OP_JRRiNWURZWGSdfPg","createdAt":"2020-09-21T12:36:13.201Z","updatedAt":"2020-09-26T11:07:42.652Z","__v":1,"courses":[]},"courseId":"5f6b549e70e1293d1ced33fc","createdAt":"2020-09-24T19:14:39.927Z","updatedAt":"2020-09-26T12:57:41.103Z","__v":0,"gpa":10},{"_id":"5f6f210c69f7a353b8c23cea","studentId":{"_id":"5f689e3dade9214480919665","name":"name","username":"fFRFDFFF","password":"$2a$10$e0zukA6MsrxHR1yFG4HYo.EWD6ASAduhLfW/lhWjwK3KAv631DaFa","email":"ahmf3ed@gmail.com","accessToken":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjVmNjg5ZTNkYWRlOTIxNDQ4MDkxOTY2NSIsImlhdCI6MTYwMTExODQ2Mn0.FTBQsIiKLKwfqRfRJZu3WEP_OP_JRRiNWURZWGSdfPg","createdAt":"2020-09-21T12:36:13.201Z","updatedAt":"2020-09-26T11:07:42.652Z","__v":1,"courses":[]},"courseId":"5f6b549e70e1293d1ced33fc","createdAt":"2020-09-26T11:07:56.616Z","updatedAt":"2020-09-26T11:07:56.616Z","__v":0}]}
+	   ✔️  "d5209750-5dd3-45ab-ae3e-b0202ce2c3e7"
+	   ✔️  2020/9/26 16:56:58
+
+}
+{
+	  level ⛔  ERROR
+	  message ⛔  {}
+	   ✔️  "75a1bf88-43d3-4c4b-bd64-63f8a07594dd"
+	   ✔️  2020/9/26 16:56:58
+
+}
+{
+	  level ⛔  ERROR
+	  message ⛔  {}
+	   ✔️  "7322c2e3-3f57-4b86-acdd-79f4169a38a5"
+	   ✔️  2020/9/26 16:56:58
+
+}
+{
+	  level ✏️  INFO
+	  message ✏️  "computer science"
+	   ✔️  "16332e65-4da2-4dc5-85a9-da4b6898e116"
+	   ✔️  2020/9/26 16:59:31
+
+}
+{
+	  level ⛔  ERROR
+	  message ⛔  {}
+	   ✔️  "874a6cf7-e147-4001-a2b1-ec5548900120"
+	   ✔️  2020/9/26 16:59:31
+
+}
+{
+	  level ⛔  ERROR
+	  message ⛔  {}
+	   ✔️  "e52b803c-da46-4479-b938-c67bb5850a9e"
+	   ✔️  2020/9/26 16:59:31
+
+}
+{
+	  level ✏️  INFO
+	  message ✏️  undefined
+	   ✔️  "3de5dde0-04e8-4368-ae09-c69e08592971"
+	   ✔️  2020/9/26 16:59:49
+
+}
+{
+	  level ⛔  ERROR
+	  message ⛔  {}
+	   ✔️  "f4f74b85-95c8-4081-a8f8-60e143c36947"
+	   ✔️  2020/9/26 16:59:49
+
+}
+{
+	  level ⛔  ERROR
+	  message ⛔  {}
+	   ✔️  "3a2bf15b-c8a4-48a1-a04a-4ef8ea50ebf5"
+	   ✔️  2020/9/26 16:59:49
+
+}
+{
+	  level ✏️  INFO
+	  message ✏️  [{"_id":"5f6cf01f7d8e474b2c1958da","studentId":{"_id":"5f689e3dade9214480919665","name":"name","username":"fFRFDFFF","password":"$2a$10$e0zukA6MsrxHR1yFG4HYo.EWD6ASAduhLfW/lhWjwK3KAv631DaFa","email":"ahmf3ed@gmail.com","accessToken":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjVmNjg5ZTNkYWRlOTIxNDQ4MDkxOTY2NSIsImlhdCI6MTYwMTExODQ2Mn0.FTBQsIiKLKwfqRfRJZu3WEP_OP_JRRiNWURZWGSdfPg","createdAt":"2020-09-21T12:36:13.201Z","updatedAt":"2020-09-26T11:07:42.652Z","__v":1,"courses":[]},"courseId":"5f6b549e70e1293d1ced33fc","createdAt":"2020-09-24T19:14:39.927Z","updatedAt":"2020-09-26T12:57:41.103Z","__v":0,"gpa":10},{"_id":"5f6f210c69f7a353b8c23cea","studentId":{"_id":"5f689e3dade9214480919665","name":"name","username":"fFRFDFFF","password":"$2a$10$e0zukA6MsrxHR1yFG4HYo.EWD6ASAduhLfW/lhWjwK3KAv631DaFa","email":"ahmf3ed@gmail.com","accessToken":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjVmNjg5ZTNkYWRlOTIxNDQ4MDkxOTY2NSIsImlhdCI6MTYwMTExODQ2Mn0.FTBQsIiKLKwfqRfRJZu3WEP_OP_JRRiNWURZWGSdfPg","createdAt":"2020-09-21T12:36:13.201Z","updatedAt":"2020-09-26T11:07:42.652Z","__v":1,"courses":[]},"courseId":"5f6b549e70e1293d1ced33fc","createdAt":"2020-09-26T11:07:56.616Z","updatedAt":"2020-09-26T11:07:56.616Z","__v":0}]
+	   ✔️  "1d42a230-209a-4c81-85ac-e143661355ff"
+	   ✔️  2020/9/26 17:0:4
+
+}
+{
+	  level ⛔  ERROR
+	  message ⛔  {}
+	   ✔️  "cef63ac8-7bf5-4627-8463-40d687fc1749"
+	   ✔️  2020/9/26 17:0:4
+
+}
+{
+	  level ⛔  ERROR
+	  message ⛔  {}
+	   ✔️  "0ffe8d5b-93f8-40b6-9f4e-9f7a1892e36b"
+	   ✔️  2020/9/26 17:0:4
+
+}
+{
+	  level ⛔  ERROR
+	  message ⛔  {}
+	   ✔️  "404552ed-5f4d-4a35-ba24-95068a86eedb"
+	   ✔️  2020/9/26 17:0:55
+
+}
+{
+	  level ⛔  ERROR
+	  message ⛔  {}
+	   ✔️  "5379849f-06a5-4b00-b8f0-7313e5c1c4ae"
+	   ✔️  2020/9/26 17:0:55
+
+}
+{
+	  level ⛔  ERROR
+	  message ⛔  {}
+	   ✔️  "bcf29298-0a1a-423c-89a3-e70b8dd84849"
+	   ✔️  2020/9/26 17:1:34
+
+}
+{
+	  level ⛔  ERROR
+	  message ⛔  {}
+	   ✔️  "e41b8f02-4020-4cd0-b21d-ad15ed46516c"
+	   ✔️  2020/9/26 17:1:52
+
+}
+{
+	  level ⛔  ERROR
+	  message ⛔  {}
+	   ✔️  "76cbfc1c-23cd-46a1-bef6-f079e416583b"
+	   ✔️  2020/9/26 17:3:5
+
+}
+{
+	  level ⛔  ERROR
+	  message ⛔  {}
+	   ✔️  "d25c9649-d741-42fc-b307-4d74ec7cad44"
+	   ✔️  2020/9/26 17:3:58
+
+}
+{
+	  level ⛔  ERROR
+	  message ⛔  {}
+	   ✔️  "6bf8e230-6f90-441d-a7fe-5524432132b8"
+	   ✔️  2020/9/26 17:4:18
+
+}
+{
+	  level ⛔  ERROR
+	  message ⛔  {}
+	   ✔️  "40823734-03fb-487d-a904-1d52751e81de"
+	   ✔️  2020/9/26 17:4:54
+
+}
+{
+	  level ⛔  ERROR
+	  message ⛔  {}
+	   ✔️  "d5d0dae8-c4d8-47c4-b9e7-4116034124d3"
+	   ✔️  2020/9/26 17:5:29
+
+}
+{
+	  level ⛔  ERROR
+	  message ⛔  {}
+	   ✔️  "5bbc4918-dacd-473c-be56-540ee68e57fb"
+	   ✔️  2020/9/26 17:6:49
+
+}
+{
+	  level ⛔  ERROR
+	  message ⛔  {}
+	   ✔️  "587ff5f1-d664-4e92-a33c-c651ed1a7837"
+	   ✔️  2020/9/26 17:7:30
+
+}
+{
+	  level ⛔  ERROR
+	  message ⛔  {}
+	   ✔️  "cfd7b7d4-7fc9-4b02-9437-4c8975c341a4"
+	   ✔️  2020/9/26 17:8:45
+
+}
+{
+	  level ⛔  ERROR
+	  message ⛔  {}
+	   ✔️  "debbaa87-eebf-49b9-af0c-18346e8d1959"
+	   ✔️  2020/9/26 17:9:24
+
+}
+{
+	  level ⛔  ERROR
+	  message ⛔  {}
+	   ✔️  "cf879933-4e62-4eab-bd71-731b1714d5e5"
+	   ✔️  2020/9/26 17:10:4
+
+}
+{
+	  level ⛔  ERROR
+	  message ⛔  {}
+	   ✔️  "cf6518be-ff40-48e4-8dc7-6f70a489a489"
+	   ✔️  2020/9/26 17:10:17
+
+}
+{
+	  level ⛔  ERROR
+	  message ⛔  {}
+	   ✔️  "c487fb3a-8d3f-445a-b21d-c581c1666424"
+	   ✔️  2020/9/26 17:10:46
+
+}
+{
+	  level ⛔  ERROR
+	  message ⛔  {}
+	   ✔️  "fcdc5d18-bdbc-4378-856f-df437465660d"
+	   ✔️  2020/9/26 17:10:46
+
+}
+{
+	  level ⛔  ERROR
+	  message ⛔  {}
+	   ✔️  "1c052059-d18a-4427-81e5-2339e772aa44"
+	   ✔️  2020/9/26 17:11:9
+
+}
+{
+	  level ⛔  ERROR
+	  message ⛔  {}
+	   ✔️  "97a982bd-a39d-4e2d-a868-4beb5b8d8832"
+	   ✔️  2020/9/26 17:11:9
+
+}
+{
+	  level ⛔  ERROR
+	  message ⛔  {}
+	   ✔️  "cf46ae77-a2c2-4a6b-ad42-fcdfd7db9d9b"
+	   ✔️  2020/9/26 17:11:30
+
+}
+{
+	  level ⛔  ERROR
+	  message ⛔  {}
+	   ✔️  "cf117197-9056-4759-8a6e-5ee2a3a74716"
+	   ✔️  2020/9/26 17:11:30
+
+}
+{
+	  level ⛔  ERROR
+	  message ⛔  {}
+	   ✔️  "4c0d2543-5bd4-4bb4-a7ea-c08e10a8762f"
+	   ✔️  2020/9/26 17:12:5
+
+}
+{
+	  level ⛔  ERROR
+	  message ⛔  {}
+	   ✔️  "baa53623-635e-47e2-bd70-dcb57031aab4"
+	   ✔️  2020/9/26 17:12:5
+
+}
+{
+	  level ⛔  ERROR
+	  message ⛔  {}
+	   ✔️  "99f2cdbc-ba5c-4e28-a35b-cb047acaac54"
+	   ✔️  2020/9/26 17:12:28
+
+}
+{
+	  level ⛔  ERROR
+	  message ⛔  {}
+	   ✔️  "38169d17-9058-47d8-8ade-7e67169b0f73"
+	   ✔️  2020/9/26 17:12:28
+
+}
+{
+	  level ⛔  ERROR
+	  message ⛔  {}
+	   ✔️  "9ea6535e-0102-422d-b1c1-fbb99ef4c618"
+	   ✔️  2020/9/26 17:13:10
+
+}
+{
+	  level ⛔  ERROR
+	  message ⛔  {}
+	   ✔️  "e0d4dc12-2f3e-4c60-9f46-dd243b7e01da"
+	   ✔️  2020/9/26 17:13:31
+
+}
+{
+	  level ⛔  ERROR
+	  message ⛔  {}
+	   ✔️  "e27ce2a6-20bb-4139-896b-76b53e5e2cb8"
+	   ✔️  2020/9/26 17:14:3
+
+}
+{
+	  level ⛔  ERROR
+	  message ⛔  {}
+	   ✔️  "e22bee20-6d6d-4eba-bb2e-88414026f100"
+	   ✔️  2020/9/26 17:15:1
+
+}
+{
+	  level ⛔  ERROR
+	  message ⛔  {}
+	   ✔️  "2b8be545-ac76-4ed6-a76b-21db8571090e"
+	   ✔️  2020/9/26 17:15:41
+
+}
+{
+	  level ⛔  ERROR
+	  message ⛔  {}
+	   ✔️  "8ceff73a-09a8-4fe8-b1dd-d9715019a304"
+	   ✔️  2020/9/26 17:15:58
+
+}
+{
+	  level ⛔  ERROR
+	  message ⛔  {}
+	   ✔️  "498abaca-4b3b-4828-b43f-eac162ea0609"
+	   ✔️  2020/9/26 17:16:22
+
+}
+{
+	  level ⛔  ERROR
+	  message ⛔  {}
+	   ✔️  "d289c896-b0d4-486d-aa59-19ce1c24ae8c"
+	   ✔️  2020/9/26 17:17:2
+
+}
+{
+	  level ✏️  INFO
+	  message ✏️  "login student called"
+	   ✔️  "15c8ec01-b5a7-42a1-a599-9cf9fc6ee3a6"
+	   ✔️  2020/9/26 17:20:29
+
+}
+{
+	  level ✏️  INFO
+	  message ✏️  "login student called"
+	   ✔️  "4c4c46ec-c301-4d3d-84f2-49495894c209"
+	   ✔️  2020/9/26 17:20:53
+
+}
+{
+	  level ✏️  INFO
+	  message ✏️  "login student called"
+	   ✔️  "39bd192f-949d-4070-9107-b981ce6035ae"
+	   ✔️  2020/9/26 17:21:39
+
+}
+{
+	  level ⛔  ERROR
+	  message ⛔  {"driver":true,"name":"MongoError","index":0,"code":11000,"keyPattern":{"email":1},"keyValue":{"email":"ahmed@gmail.com"}}
+	   ✔️  "b9fdabc0-cc86-4481-b067-285486eefc1f"
+	   ✔️  2020/9/26 17:22:57
+
+}
+{
+	  level ⛔  ERROR
+	  message ⛔  {"driver":true,"name":"MongoError","index":0,"code":11000,"keyPattern":{"email":1},"keyValue":{"email":"ahmeسd@gmail.com"}}
+	   ✔️  "df074dab-719d-4484-b510-9cd174243f93"
+	   ✔️  2020/9/26 17:23:17
+
+}
+{
+	  level ✏️  INFO
+	  message ✏️  "login student called"
+	   ✔️  "0d588908-ff8a-4316-82bf-43a18eb1a8e1"
+	   ✔️  2020/9/26 17:23:33
+
+}
+{
+	  level ✏️  INFO
+	  message ✏️  "login student called"
+	   ✔️  "573b9520-9f63-45ba-91f4-9d54230a1334"
+	   ✔️  2020/9/26 17:23:58
+
+}
+{
+	  level ⛔  ERROR
+	  message ⛔  {"driver":true,"name":"MongoError","index":0,"code":11000,"keyPattern":{"email":1},"keyValue":{"email":"ahmeasسd@gmail.com"}}
+	   ✔️  "0219537e-84a9-4ae6-b3e0-03afd49b3b67"
+	   ✔️  2020/9/26 17:24:9
+
+}
+{
+	  level ⛔  ERROR
+	  message ⛔  {"driver":true,"name":"MongoError","index":0,"code":11000,"keyPattern":{"email":1},"keyValue":{"email":"ahmeasسd@gmail.com"}}
+	   ✔️  "02b0e233-c069-4d5d-bffd-3b8159013ae1"
+	   ✔️  2020/9/26 17:24:13
+
+}
+{
+	  level ✏️  INFO
+	  message ✏️  "login student called"
+	   ✔️  "6ea3bd53-c6e3-4114-a230-7a6809ed2e68"
+	   ✔️  2020/9/26 17:24:25
+
+}
+{
+	  level ⛔  ERROR
+	  message ⛔  {}
+	   ✔️  "50dccd22-131f-46ba-a21d-23482d4e9888"
+	   ✔️  2020/9/26 17:30:36
+
+}

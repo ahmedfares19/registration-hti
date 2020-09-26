@@ -17,6 +17,7 @@ import { StudentCourseReq } from '../interfaces/course/add-student-course';
 import StudentCourse from '../models/student-course.model';
 import { IStudentCourse } from '../models/student-course.model';
 import { GetStudentCourseReq } from '../interfaces/course/get-student-courses';
+import { MapStudentCourse } from '../mapper/map-student-course';
 export class StudentController {
   constructor(private studentDao: StudentDao) {
     this.studentDao = studentDao;
@@ -139,7 +140,7 @@ export class StudentController {
       } else {
         const res = new BaseResponse(
           resStatus.Successful,
-          Localize.localize(createStudentCourseReq.language, "studentCreate"),
+          Localize.localize(createStudentCourseReq.language, "courseCreate"),
           "",
           result.error
         );
@@ -174,7 +175,7 @@ export class StudentController {
       } else {
         const res = new BaseResponse(
           resStatus.Successful,
-          Localize.localize(createStudentCourseReq.language, "studentCreate"),
+          Localize.localize(createStudentCourseReq.language, "courseDrop"),
           "",
           result.error
         );
@@ -194,25 +195,14 @@ export class StudentController {
   getStudentCourse = async (student:IStudent,createStudentCourseReq: GetStudentCourseReq) => {
     try {
       const courseCode = createStudentCourseReq.code || '';
-      const result = await this.studentDao.dropStudentCourse(student, courseCode);
-      console.log(result);
-      if (!result.error) {
-        const res = new BaseResponse(
-          resStatus.UnprocessableEntity,
-          result.message,
-          result,
-          ""
-        );
-        return res;
-      } else {
+      const result = await this.studentDao.getStudentCourse(student, courseCode);
         const res = new BaseResponse(
           resStatus.Successful,
-          Localize.localize(createStudentCourseReq.language, "studentCreate"),
+          Localize.localize(createStudentCourseReq.language, "successfull"),
           "",
-          result.error
+          MapStudentCourse.map(result)
         );
         return res;
-      }
     } catch (error) {
       Logy.log("error", error);
       const res = new BaseResponse(

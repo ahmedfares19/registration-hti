@@ -1,27 +1,23 @@
 import { lang, profTypes } from '../../utils/enums'; 3
 import {  Request } from "express";
-export interface createProf {
-  username: String;
-  password: String;
-  type:any
+export interface putGpaProf {
+  username: String; 
+  courseCode: String,
+  mark:String,
   lang?: lang;
 }
-export class CreateProfReq implements createProf {
+export class PutGpaProfReq implements putGpaProf {
   username: String;
-  password: String;
-  name: String;
-  email: String;
-  type: any;
+  courseCode: any;
+  mark: String;
   language: lang;
   private request: Request;
   private body: any;
   constructor(cProfRequest: Request) {
     this.request = cProfRequest;
     this.username = "";
-    this.name = ''
-    this.email = ''
-    this.password = "";
-    this.type = profTypes['usual']
+    this.courseCode = "";
+    this.mark = '0';
     this.language = lang.Arabic;
     this.body = this.request.body;
   }
@@ -30,10 +26,8 @@ export class CreateProfReq implements createProf {
     try {
       let flag: boolean = true;
       this.username = !this.body["username"]?flag =false:this.body["username"];
-      this.password = !this.body["password"] ? flag = false : this.body["password"];
-      this.name = !this.body["name"]?flag =false:this.body["name"];
-      this.email = !this.body["email"] ? flag = false : this.body["email"];
-      this.type = profTypes[this.body["type"]]?profTypes[this.body["type"]]:profTypes.usual
+      this.mark = !this.body["mark"] ? flag = false : this.body["mark"];
+      this.courseCode = !this.body["courseCode"] ? flag = false : this.body["courseCode"];
       this.language = this.body["lang"] || lang.Arabic;
       return flag
     } catch (error) {

@@ -112,7 +112,7 @@ export class StudentDao {
       } else {
         const result = await StudentCourse.find({
           studentId: student._id,
-        });
+        }).populate('studentId').populate('courseId');
          return result;
       }
       
