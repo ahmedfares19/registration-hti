@@ -1,7 +1,7 @@
 import * as bcryptjs from "bcryptjs";
 import { Env } from "./env";
 export class Hash {
-    private static salt = bcryptjs.genSaltSync( +Env.HASHSERCET);
+    private static salt = bcryptjs.genSaltSync();
   public static encrypt = (text: string) => {
     return bcryptjs.hashSync(text, Hash.salt);
   };
